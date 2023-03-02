@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(254, 242, 227);
+}
+
+.hero2 {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    top: 10%; left: 10%;
+}
+
+.monster {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    top: 10%; right: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+progress {
+    width: 80%;
+    height: 2rem;
+    border: 6px solid azure;
+  }
+  
+  progress[value] {
+    background-color: #ff0000;
+    box-shadow: 5px 2px 5px rgb(250, 0, 0) inset;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    background-color: green;
+    transition: all 0.2s ease-out;
+  } 
+  
+  progress[value]::-moz-progress-bar {
+    background-color: green;
+    transition: all 0.2s ease-out;
+  }
+  
+  button {
+    text-align: center;
+    font: inherit;
+    background: #ff0062;
+    border: 1px solid #ff0062;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #a927f5;
+    border-color: #a927f5;
+  }
+  
+  #health-levels,
+  #controls {
+    margin: 8px auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background: azure;
+  }
+  
+  #controls {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #log {
+    text-align: center;
+  }
+
+  #playAgain {
+    visibility: hidden;
+    margin: 5px 
+  }
